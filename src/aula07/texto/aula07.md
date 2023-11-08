@@ -76,7 +76,7 @@ Alguns `métodos` nativamente implementados para `coleções`:
 
 ### Exercícios
 
-[Lista de exercícios para Java Collections](https://www.w3resource.com/java-exercises/collection/index.php).
+[Lista de exercícios para Java Collections - ArrayList](https://www.w3resource.com/java-exercises/collection/index.php).
 
 ---
 

@@ -51,5 +51,15 @@ public class Principal {
         // Imprimindo tudo
         System.out.println("O aluno " + aluno1.getNome() + " de matrícula " + aluno1.getMatricula() + " teve as " +
                 "seguintes notas:\n" + aluno1.getNotas());
+
+        System.out.println("O aluno " + aluno2.getNome() + " de matrícula " + aluno2.getMatricula() + " teve as " +
+                "seguintes notas:\n" + aluno2.getNotas());
+
+        System.out.println("O aluno " + aluno3.getNome() + " de matrícula " + aluno3.getMatricula() + " teve as " +
+                "seguintes notas:\n" + aluno3.getNotas());
+
+        System.out.println("A disciplina " + disciplina1.getNome() + " é ministrada pelo professor " + disciplina1.getProfessor().getNome());
+        System.out.println("A disciplina " + disciplina2.getNome() + " é ministrada pelo professor " + disciplina2.getProfessor().getNome());
+        System.out.println("A disciplina " + disciplina3.getNome() + " é ministrada pelo professor " + disciplina3.getProfessor().getNome());
     }
 }
