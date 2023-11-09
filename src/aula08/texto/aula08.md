@@ -38,7 +38,7 @@ inteira que requisite 4 `bytes`, e seu endereço seja <u>4500</u>, então essa v
 <u>4500</u>, <u>4501</u>, <u>4502</u> e <u>4503</u>. O `endereço`, entretanto, corresponde ao **primeiro *byte***. O 
 mesmo princípio se aplica a qualquer outro tipo de dado.
 
-![Exemplo01](.\src\aula08\imagens\pooED_memoria.png)
+![Exemplo01](aula08/imagens/pooED_memoria.png)
 
 De forma similar, uma `estrutura de dados` vai consistir de uma maneira de armazenar um conjunto de dados na 
 `memória`, com suas respectivas formas de acesso e manipulação. Ainda, é importante lembrar também que cada 
@@ -111,7 +111,7 @@ método `timeToSize()` que para realizar essa diminuição.
 Caso queiramos criar um `array` com um tamanho mínimo especificado, podemos utilizar outro `construtor`:
 
 ```java
-ArrayList<Aluno> alunos = new ArrayList<Aluno>(100); // indicando que o array deve ter inicialmente a capacidade de 100
+ArrayList<Aluno> alunos = new ArrayList<Aluno>(100); // indicando que o array deve capacidade inicial de 100
 ```
 
 ### 3.2 Lista estática encadeada
@@ -120,7 +120,7 @@ Uma `lista estática encadeada` é bastante parecida com uma `estática sequenci
 elementos da lista (ou a referência aos elementos) não estarão alocados de forma contígua na memória. Isto faz com que 
 cada elemento (ou referência) da lista precise ter uma referência para o elemento seguinte.
 
-![Lista estática encadeada](.\src\aula08\imagens\lee.png)
+![Lista estática encadeada](aula08/imagens/lee.png)
 
 ### 3.3 Lista dinâmica encadeada simples
 
@@ -129,7 +129,7 @@ necessidade uma nova alocação na memória ocorre. Esse novo elemento alocado �
 `encademanto simples` significa que cada elemento terá uma referência para o elemento seguinte, de forma que só é 
 possível percorrer a lista do início para o fim.
 
-![Lista estática encadeada](.\src\aula08\imagens\lde.png)
+![Lista estática encadeada](aula08/imagens/lde.png)
 
 ### 3.4 Lista dinâmica duplamente encadeada
 
@@ -139,7 +139,7 @@ elemento anterior. A partir disso é possível percorrer a lista em qualquer sen
 do fim para o início. Por causa disso, uma implementação costuma ter uma referência para o início e outra para o fim 
 da lista.
 
-![Lista dinâmica duplamente encadeada](.\src\aula08\imagens\ldde.png)
+![Lista dinâmica duplamente encadeada](aula08/imagens/ldde.png)
 
 Em `Java` temos o `LinkedList`, o qual implementa a lista duplamente encadeada. Na prática, seu uso é bastante 
 similar ao do `ArrayList`, com as diferenças óbvias de que existem `métodos` para adição e remoção tanto no início 
