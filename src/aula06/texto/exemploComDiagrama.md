@@ -1,4 +1,4 @@
-![Diagrama de Classes](D:\Workspaces\Uninassau\POO\POO_ED\src\aula06\imagens\exemploGeralClasses.png)
+![Diagrama de Classes](..\imagens\exemploGeralClasses.png)
 
 O Diagrama de Classes acima tem exemplos do uso de `herança`, `classe abstrata` e também `interface`. Para começar, 
 uma descrição breve do que se trata o sistema.
