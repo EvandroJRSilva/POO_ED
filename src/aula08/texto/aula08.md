@@ -151,3 +151,9 @@ LinkedList alunos = new LinkedList();
 
 A documentação para sua implementação de acordo com o `Java 17` pode ser encontrada
 [aqui](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/LinkedList.html)
+
+## 4 Exercícios
+
+1. Desafios escritos nas classes no pacote `aula08.codigos.exemplos.vetor`.
+2. [Lista de exercícios ArrayList](https://www.w3resource.com/java-exercises/collection/index.php#arraylist).
+3. [Lista de exercícios LinkedList](https://www.w3resource.com/java-exercises/collection/index.php#linkedlist).
