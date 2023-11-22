@@ -27,6 +27,8 @@ Observando o diagrama de classes é possível ver que temos 19 classes:
 18. ContaCorrente; 
 19. ContaPoupanca.
 
+![diagrama de classes](pooed-Page-1.png)
+
 Além das classes existem 2 `Interfaces`:
 
 1. Diretoria;
@@ -68,6 +70,8 @@ Observando de forma mais detalhada o diagrama, é possível notar algumas padron
 
 No diagrama seguinte temos um detalhamento da relação entre algumas classes. São duas as relações mostradas:
 **composição** e **agregação**.
+
+![diagrama de classes com relacionamento](pooed-Página-2.png)
 
 ## 1.1 Composição
 
