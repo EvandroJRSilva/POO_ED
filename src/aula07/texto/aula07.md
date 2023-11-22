@@ -20,7 +20,7 @@ contêm:
 O núcleo de `interfaces` encapsula diferentes tipos de coleções, de forma que elas possam ser manipuladas 
 independentemente dos detalhes de suas representações.
 
-![Hierarquia das coleções](..\imagens\figura01.png)
+![Hierarquia das coleções](../imagens/figura01.png)
 
 * **Collection**: raiz da hierarquia. É o denominador comum de todas as `coleções` implementadas, e pode ser utilizada 
   como o mais genérico possível que alguma coleção possa ser. Não existe uma implementação direta desta `interface`.
@@ -45,15 +45,15 @@ implementações das `interfaces` de `coleção`. As implementações são divid
 Lista de implementações de **propósito geral** (o * indica a implementação de uso mais comum de cada tipo):
 
 * `Set`: `HashSet`*, `TreeSet` e `LinkedHashSet`.
-  * ![Quadro de Resumo](..\imagens\figura02_02.png)
+  * ![Quadro de Resumo](../imagens/figura02_02.png)
 * `List`: `ArrayList`* e `LinkedList`.
-  * ![Quadro de Resumo](..\imagens\figura02_03.png)
+  * ![Quadro de Resumo](../imagens/figura02_03.png)
 * `Queue`: `PriorityQueue` e `LinkedList`*.
 * `Deque`: `ArrayDeque`* e `LinkedList`.
 * `Map`: `HashMap`*, `TreeMap` e `LinkedHashMap`.
-  * ![Quadro de Resumo](..\imagens\figura02_01.png)
+  * ![Quadro de Resumo](../imagens/figura02_01.png)
 
-![Implementações de Propósito Geral](..\imagens\figura03.png)
+![Implementações de Propósito Geral](../imagens/figura03.png)
 
 Lista de implementações de **propósito especial**:
 

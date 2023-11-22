@@ -266,7 +266,7 @@ Pessoa pessoa = new Pessoa();
 Pessoa pessoa2 = new Pessoa();
 ```
 
-![Figura 01](..\imagens\figura01.jpeg)
+![Figura 01](../imagens/figura01.jpeg)
 
 ### Interação entre Objetos
 
