@@ -1,6 +1,6 @@
 package prova2.pratica;
 
-import aula07.codigos.exemplos.collections.Professor;
+import prova2.pratica.funcionarios.Professor;
 
 import java.util.ArrayList;
 

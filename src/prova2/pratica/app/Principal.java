@@ -8,7 +8,6 @@ import prova2.pratica.funcionarios.*;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
@@ -84,5 +83,9 @@ public class Principal {
 
         Aluno aluno2 = new Aluno();
         Aluno aluno3 = new Aluno();
+
+        f1.getCursos().get(0).getDisciplinas().get(0).addProfessor(professor1);
+
+        f1.getCursos().get(0).getDisciplinas().get(0).addAluno(aluno1);
     }
 }
